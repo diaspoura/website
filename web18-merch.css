@@ -1,0 +1,160 @@
+body {
+	background-color: white;
+}
+
+.main{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 10%;
+	padding-top: 3%;
+	cursor: auto;
+	cursor: url(nat1052.cur), auto;
+}
+
+
+.col-md-4{
+	margin-bottom: 5%;
+	display: inline-block;
+}
+
+
+
+.picCont:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+#go{
+  background: url(http://www.playcast.ru/uploads/2016/04/16/18288420.gif);
+}
+
+#stop{
+  background: url(images/soldoverlay2.gif);
+}
+
+.button{
+	width: 100%;
+}
+
+.text-box{
+	font: Helvetica;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	background: orange;
+	background-size: contain;
+	color: black;
+	padding: 2%;
+	margin: 10%;
+	
+}
+
+.nav{
+  background: url(https://media.giphy.com/media/r2DZ7c7zrY1jO/giphy.gif);
+  min-width: 250px;
+  flex: 1;
+}
+
+h1 {
+  position: relative;
+  
+  background-color: rgba(1,1,1,0.0) !important;
+  opacity: 1 !important;
+  background-color: transparent !important; 
+  padding: 20px;
+  text-align: left;
+  font-size: 5rem;
+  margin-bottom: 8rem;
+}
+
+.text {
+  color: white;
+  font-family:'Gruppo', serif;
+  font-weight:normal;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image {
+	position: relative;
+	left: 50px;
+	width: 30%;
+	height: 40%;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.title {
+	position: relative;
+	top: 30%;
+	right: 0;
+	width: 40%;
+	padding: 2rem 0 0 2rem;
+	text-align: right;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: url(https://media.giphy.com/media/3oEdvaxmd15YTHy6Uo/giphy.gif);
+	background-position: 0% 35%; 
+    color: white;
+    text-align: center;
+	flex: 1;
+}
+
+
+
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px ) {
+	.main{padding:10%;}
+	.title { width:60%; padding-right: 6rem; }
+	.image { width: 40%; position: relative; left: 10px;}
+	.button{ width: 90%;}
+	.contact{width: 110%;}
+	
+}
+
+/* On phone screens, make these changes to size*/
+@media screen and ( max-width: 575px ) {
+	.main{padding: 5%}
+	.text {font-size: 10px}
+	.image { width: 50%; left: 10px;}
+	.title { width:80%; padding-right: 5rem; top:15%}
+	.button{ width:50%;}
+	nav { position: relative; width: 40%;left: 0; right: auto; }
+	footer{ position: relative; right: auto; }
+}
+
+

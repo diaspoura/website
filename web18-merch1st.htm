@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	
+	
+<head>
+  <link rel="stylesheet" type="text/css" href="web18-merch copy.css"/>
+	<title>fk the patriarchy</title>
+
+   <link rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		
+		<script rel="stylesheet" href="bootstrap-social.css"></script>
+</head>
+
+
+<div class="main">
+
+	<div class="container" style="position: relative; left: 0; top: 0;">
+		<div class="row">
+								<img class="image" src="images/turmeric2.png" style="position: relative; left: 20%; top: 0;">
+								<img class="title" src="images/logoblue.png"  style="position: absolute; left:40%;">
+		</div>
+	</div>
+	
+	<div class="row">
+			
+		<div class="col-sm-6">
+					
+	<!-- Full-width images with number text -->
+			<div class="mySlides">
+				<div class="numbertext">1 / 4</div>
+					<img src="images/merch/shirtsTouchedUp/shirt01.1.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">2 / 4</div>
+					<img src="images/merch/shirtsTouchedUp/shirt01.2.jpg" style="width:100%">
+			</div>
+		
+			<div class="mySlides">
+				<div class="numbertext">3 / 4</div>
+					<img src="images/merch/shirtsTouchedUp/shirt01.3.jpg" style="width:70%">
+			</div>
+		
+			
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+				<!-- Image text -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+			
+				<!-- Thumbnail images -->
+				<div class="row">
+					<div class="column">
+						<img class="demo cursor" src="images/merch/shirtsTouchedUp/shirt01.1.jpg" style="width:70%" onclick="currentSlide(1)" alt="Teja1">
+					</div>
+					<div class="column"> 
+						<img class="demo cursor" src="images/merch/shirtsTouchedUp/shirt01.2.jpg" style="width:70%" onclick="currentSlide(2)" alt="Teja2">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="images/merch/shirtsTouchedUp/shirt01.3.jpg" style="width:70%" onclick="currentSlide(3)" alt="V1">
+					</div>
+				</div>
+				
+				<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+				
+				// Next/previous controls
+				function plusSlides(n) {
+					showSlides(slideIndex += n);
+				}
+				
+				// Thumbnail image controls
+				function currentSlide(n) {
+					showSlides(slideIndex = n);
+				}
+				
+				function showSlides(n) {
+					var i;
+					var slides = document.getElementsByClassName("mySlides");
+					var dots = document.getElementsByClassName("demo");
+					var captionText = document.getElementById("caption");
+					if (n > slides.length) {slideIndex = 1;}
+					if (n < 1) {slideIndex = slides.length;}
+					for (i = 0; i < slides.length; i++) {
+						slides[i].style.display = "none";
+					}
+					for (i = 0; i < dots.length; i++) {
+						dots[i].className = dots[i].className.replace(" active", "");
+					}
+					slides[slideIndex-1].style.display = "block";
+					dots[slideIndex-1].className += " active";
+					captionText.innerHTML = dots[slideIndex-1].alt;
+				}
+				
+				</script>
+
+			</div>
+			<div class="col-sm-6 vcenter">
+				
+				<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+					<input type="hidden" name="cmd" value="_s-xclick">
+					<input type="hidden" name="hosted_button_id" value="GWV6ZT58HWUC4">
+					<table>
+					<tr><td><input type="hidden" name="on0" value="Shirt Styles">Small Shirts</td></tr><tr><td><select name="os0">
+						<option value="Style 1">Style 1 </option>
+						<option value="Style 2">Style 2 </option>
+						<option value="Style 3">Style 3 </option>
+						<option value="Style 4">Style 4 </option>
+					</select> </td></tr>
+					</table>
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
+		
+			</div>
+	</div>
+	
+</div>
+							
+
+											
+
+
+				
+			
+	
+
+</div>
+
+
+
+<footer>
+	<a href="https://www.twitter.com/diaspoura">
+	<img src="images/social/twitter.png" width=5% ">
+	</a>
+	
+	<a href="https://www.facebook.com/diaspoura/">
+	<img src="images/social/facebook.png" width=5% >
+	</a>
+	
+	<a href="https://www.instagram.com/diaspoura/">
+	<img src="images/social/instagram.png" width=5% >
+	</a>
+	
+</footer>
+
+
+</html>
