@@ -87,7 +87,8 @@ footer {
 }
 
 /* On phone screens, make these changes to size*/
-@media screen and ( max-width: 575px ) {
+@media screen and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 	.main{padding: 5%}
 	.text {font-size: 10px}
 	.image { width: 50%; left: 10px;}
