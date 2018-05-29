@@ -148,13 +148,13 @@ footer {
 
 /* On phone screens, make these changes to size*/
 @media screen and ( max-width: 575px ) {
-	.main{padding: 5%}
+	.main{padding: 1%}
 	.text {font-size: 10px}
-	.image { width: 50%; left: 10px;}
-	.title { width:80%; padding-right: 5rem; top:15%}
+	.image { width: 50%; left: 8px;}
+	.title { width:70%; padding-right: 5rem; top:15%}
 	.button{ width:50%;}
 	nav { position: relative; width: 40%;left: 0; right: auto; }
-	footer{ position: relative; right: auto; }
+	footer{ position: fixed; right: auto; }
 }
 
 
