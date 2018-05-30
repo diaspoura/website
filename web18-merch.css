@@ -3,17 +3,39 @@ body {
 }
 
 .main{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 0%;
+	padding-right: 0%;
 	padding-bottom: 10%;
 	padding-top: 3%;
-	cursor: auto;
-	cursor: url(nat1052.cur), auto;
 }
 
 
-.col-md-4{
+.col-12 {
+	width: 50%;
 	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
+	
+}
+
+.col-sm-6{
+	width: 90%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
+	min-height: calc(100vh - 100px);
+	
+}
+
+.col-md-4{
+	width: 80%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	margin-left: 0% !important;
+	margin-right: 0% !important;
 	display: inline-block;
 }
 
@@ -121,28 +143,31 @@ footer {
 }
 
 
-
+.previewPic{
+	width:70%;
+	
+}
 
 
 
 
 @media screen and (max-width: 900px ) {
+
 	.title { width:60%; padding-right: 6rem; }
 	.image { width: 40%; position: relative; left: 10px;}
-	.button{ width: 90%;}
-	.contact{width: 110%;}
-	
+	.previewPic{ width:80%;}
 }
 
 /* On phone screens, make these changes to size*/
 @media screen and ( max-width: 575px ) {
-	.main{padding: 1%}
+
+	.previewPic{width:70%}
 	.text {font-size: 10px}
-	.image { width: 50%; left: 8px;}
-	.title { width:70%; padding-right: 5rem; top:15%}
-	.button{ width:50%;}
-	nav { position: relative; width: 50%;left: 0; right: auto; }
-	footer{ position: fixed; right: auto; }
+	.image { width: 50%; left: 10px;}
+	.title { width:80%; padding-right: 5rem; top:15%}
+
+	nav { position: relative; width: 40%;left: 0; right: auto; }
+	footer{ position: relative; right: auto; }
 }
 
 
