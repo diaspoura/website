@@ -71,6 +71,7 @@ body {
   width: 100%;
   opacity: 1;
   background-image: url(images/soldoverlay2.gif);
+  z-index:2;
 }
 
 
