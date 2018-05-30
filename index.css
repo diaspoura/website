@@ -92,7 +92,8 @@ and (max-device-width : 480px) {
 	.text {font-size: 10px}
 	.image { width: 50%; left: 8px;}
 	.title { width:70%; padding-right: 5rem; top:15%}
-	.button{ width:75%; height: 75%;}
+	.merchbutt{width:70%;}
+	.button{ width:70%; height: 70%;}
 	nav { position: relative; width: 40%; left: auto; right: auto; }
 	footer{ position: relative; right: auto; }
 }
