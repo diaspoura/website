@@ -47,17 +47,6 @@ body {
 	width: 100%;
 }
 
-.text-box{
-	font: Helvetica;
-	letter-spacing: 1px;
-	font-size: 1rem;
-	background: orange;
-	background-size: contain;
-	color: black;
-	padding: 2%;
-	margin: 10%;
-	
-}
 
 .nav{
   background: url(https://media.giphy.com/media/r2DZ7c7zrY1jO/giphy.gif);
