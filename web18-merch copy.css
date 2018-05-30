@@ -4,18 +4,27 @@ body {
 }
 
 .main{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 0%;
+	padding-right: 0%;
 	padding-bottom: 10%;
+	padding-top: 3%;
 }
 
 .col-12 {
-	width: 50%;
+	width: 90%;
 	margin-bottom: 5%;
 	padding-left: 0% !important;
 	padding-right: 0% !important;
 	display: inline-block;
 	
+}
+
+.col-sm-12{
+	width: 90%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
 }
 
 .col-md-6{
@@ -43,29 +52,13 @@ text{
 	width: 100%;
 }
 
-.text-box{
-	font: Helvetica;
-	letter-spacing: 1px;
-	font-size: 1rem;
-	background: orange;
-	background-size: contain;
-	color: black;
-	padding: 2%;
-	margin: 10%;
-}
+
 
 /*used for changing different content per page! very important - makes sure that other content is not shown*/
 .dynamic-content {
     display:none;
 }
 
-/*codepen slider code*/
-
-
-
-
-
-/*end of codepen slider code*/
 
 .nav{
   background: url(https://media.giphy.com/media/r2DZ7c7zrY1jO/giphy.gif);
