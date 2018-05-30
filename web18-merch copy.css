@@ -9,6 +9,25 @@ body {
 	padding-bottom: 10%;
 }
 
+.col-12 {
+	width: 50%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
+	
+}
+
+.col-md-6{
+	width: 90%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
+	min-height: calc(100vh - 100px);
+	
+}
+
 text{
   color: red;
   font-family:'Gruppo', serif;
