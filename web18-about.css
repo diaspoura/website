@@ -36,6 +36,15 @@ body {
 	min-height: calc(100vh - 100px);
 }
 
+.col-6{
+	width: 90%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
+	min-height: calc(100vh - 100px);
+}
+
 .row{
 	padding: 2%;
 }
