@@ -86,14 +86,17 @@
 	 
 			// Check if the URL parameter is md-sporty-tee
 			if (dynamicContent == 'sporty-tee') {
+				location.reload(forceGet);
 				$('#sporty-tee').show();
 			}
 			// Check if the URL parameter is md-reverse-logo-tee
 			else if (dynamicContent == 'reverse-logo-tee') {
+				location.reload(forceGet);
 				$('#reverse-logo-tee').show();
 			}
 			// Check if the URL parameter is bananas
 			else if (dynamicContent == 'bb-tank') {
+				location.reload(forceGet);
 				$('#bb-tank').show();
 			}
 			// Check if the URL parameter is bb-doll-tee
@@ -367,7 +370,9 @@
 		<div class="col-md-6">
 			
 		<!-- Swiper JS -->
-		<script src="swiper-master/dist/js/swiper.min.js"></script>
+		<script src="swiper-master/dist/js/swiper.min.js">
+
+		</script>
 	
 		<!-- Initialize Swiper -->
 		<script>
