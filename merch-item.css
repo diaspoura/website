@@ -19,7 +19,7 @@ body {
 	
 }
 
-.col-sm-12{
+.col-sm-6{
 	width: 90%;
 	margin-bottom: 5%;
 	padding-left: 0% !important;
@@ -27,7 +27,7 @@ body {
 	display: inline-block;
 }
 
-.col-md-6{
+.col-6{
 	width: 90%;
 	margin-bottom: 5%;
 	padding-left: 0% !important;
