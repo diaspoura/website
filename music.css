@@ -45,9 +45,9 @@ body {
 }
 
 .text-box{
-	font: 'Gruppo', serif;
+	font:'Gruppo', serif;
 	font-size: 1rem;
-	background: white;
+	background: url(images/bathtowel.png);
 	background-size: contain;
 	color: #0098C6;
 	padding: 2%;
