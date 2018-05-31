@@ -48,7 +48,7 @@ body {
 	font:'Gruppo', serif;
 	font-size: 1rem;
 	background: url(images/bathtowel.png);
-	background-size: contain;
+	background-size: 100%;
 	color: #0098C6;
 	padding: 2%;
 	margin: 10%;
@@ -63,7 +63,6 @@ body {
 
 h1 {
   position: relative;
-  
   background-color: rgba(1,1,1,0.0) !important;
   opacity: 1 !important;
   background-color: transparent !important; 
