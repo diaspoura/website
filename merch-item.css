@@ -125,7 +125,7 @@ footer {
 @media screen and ( max-width: 575px ) {
 
 	.text {font-size: 10px}
-	.image { width: 40%; left: 10px;}
+	.image { width: 25%; left: 10px;}
 	.title { width:80%; padding-right: 5rem; top:15%}
 
 	nav { position: relative; width: 40%;left: 0; right: auto; }
