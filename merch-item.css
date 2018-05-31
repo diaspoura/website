@@ -76,8 +76,8 @@ h1{
 .image {
 	position: relative;
 	left: 40px;
-	width: 30%;
-	height: 40%;
+	width: 250%;
+	height: 25%;
 	background-size: cover;
 	background-position: 50% 50%;
 
@@ -118,14 +118,14 @@ footer {
 @media screen and (max-width: 900px ) {
 
 	.title { width:60%; padding-right: 6rem; }
-	.image { width: 40%; position: relative; left: 10px;}
+	.image { width: 30%; position: relative; left: 10px;}
 }
 
 /* On phone screens, make these changes to size*/
 @media screen and ( max-width: 575px ) {
 
 	.text {font-size: 10px}
-	.image { width: 50%; left: 10px;}
+	.image { width: 40%; left: 10px;}
 	.title { width:80%; padding-right: 5rem; top:15%}
 
 	nav { position: relative; width: 40%;left: 0; right: auto; }
