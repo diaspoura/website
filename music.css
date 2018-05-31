@@ -45,12 +45,11 @@ body {
 }
 
 .text-box{
-	font: Helvetica;
-	letter-spacing: 1px;
+	font: 'Gruppo', serif;
 	font-size: 1rem;
-	background: orange;
+	background: white;
 	background-size: contain;
-	color: black;
+	color: #0098C6;
 	padding: 2%;
 	margin: 10%;
 	
