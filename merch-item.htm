@@ -57,13 +57,7 @@
 </head>
 
 <div class="main">
-	<script>
-	swiper.update();
-	console.log("just checking in");
-	swiper.updateSlides();
-	swiper.updateSize();
-	console.log("finished");
-	</script>
+
 
 	<div class="container" style="position: relative; left: 0; top: 0;">
 		<div class="row">
@@ -98,13 +92,13 @@
 			}
 			// Check if the URL parameter is md-reverse-logo-tee
 			else if (dynamicContent == 'reverse-logo-tee') {
-				swiper.update();
+
 				$('#reverse-logo-tee').show();
 
 			}
 			// Check if the URL parameter is bananas
 			else if (dynamicContent == 'bb-tank') {
-				swiper.update();
+
 				$('#bb-tank').show();
 
 			}
@@ -214,6 +208,14 @@
 					nextEl: '.swiper-button-next',
 					prevEl: '.swiper-button-prev',
 				}, });
+			
+
+	swiper.update();
+	console.log("just checking in");
+	swiper.updateSlides();
+	swiper.updateSize();
+	console.log("finished");
+
 		</script>
 		<br>
 		</div> <!-- last div of 'col-md-4' -->
@@ -276,6 +278,11 @@
 					nextEl: '.swiper-button-next',
 					prevEl: '.swiper-button-prev',
 				}, });
+				swiper.update();
+	console.log("just checking in");
+	swiper.updateSlides();
+	swiper.updateSize();
+	console.log("finished");
 		</script>
 		<br>
 		</div> <!-- last div of 'col-md-4' -->
