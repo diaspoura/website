@@ -1,6 +1,6 @@
-body {
+body, html {
 	background-color: white;
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Source Code Pro', serif;
 
 }
 
@@ -120,7 +120,7 @@ button{
 }
 
 .navbutton{
-	width:100%;
+	width:90%;
 }
 
 
