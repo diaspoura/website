@@ -56,10 +56,11 @@ body {
 .text-box{
 	font-family:'Gruppo', serif;
 	font-size: 1rem;
+	align-content: center;
 	background: white;
 	color: #0098C6;
 	padding: 2%;
-	margin: 10%;
+	margin: 0 auto;
 	
 }
 
