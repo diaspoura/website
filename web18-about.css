@@ -54,7 +54,7 @@ body {
 }
 
 .text-box{
-	font: Helvetica;
+	font-family:'Gruppo', serif;
 	letter-spacing: 1px;
 	font-size: 1rem;
 	background: orange;

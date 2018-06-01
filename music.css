@@ -54,7 +54,7 @@ body {
 }
 
 .text-box{
-	font:'Gruppo', serif;
+	font-family:'Gruppo', serif;
 	font-size: 1rem;
 	background: url(images/bathtowel.png);
 	background-size: 110%;
