@@ -58,6 +58,7 @@ body {
 	font-size: 1rem;
 	align-content: center;
 	background: white;
+	max width: 100px;
 	color: #0098C6;
 	padding: 2%;
 	margin: 0 auto;
