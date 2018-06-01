@@ -1,7 +1,10 @@
 body, html {
 	background-color: white;
 	font-family: 'Source Code Pro', serif;
+}
 
+text{
+	font-family: 'Source Code Pro', serif;
 }
 
 .main{
