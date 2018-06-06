@@ -1,7 +1,7 @@
-url, body {
+body {
 	background: url(images/carpet1.jpg);
 	background-size: 600px;
-	cursor: url(nat689.cur);
+	cursor: url(nat689.cur) !important;
 }
 
 .main{
