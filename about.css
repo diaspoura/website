@@ -1,6 +1,7 @@
 body {
 	background: url(images/shadowback.jpg);
 	background-size: 300px;
+	cursor: url(chicken.cur), auto !important;
 }
 
 .main{

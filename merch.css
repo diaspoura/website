@@ -50,7 +50,6 @@ html,body
 
 .picCont:hover .overlay {
   opacity: 1;
-  cursor: url("http://downloads.totallyfreecursors.com/cursor_files/flower19.ani");
 }
 
 .overlay {

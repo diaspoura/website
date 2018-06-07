@@ -1,5 +1,6 @@
 body {
 	background: url(images/motel6.jpg);
+	cursor: url(blm.cur), auto !important;
 }
 
 .main{
