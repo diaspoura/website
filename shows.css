@@ -1,19 +1,69 @@
 body {
-	background: url(images/carpet1.jpg);
-	background-size: 600px;
-	cursor: url(shiva.cur), auto !important;
+	background: url(images/motel6.jpg);
+	cursor: url(blm.cur), auto !important;
 }
 
 .main{
-	padding: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 10%;
+	padding-top: 3%;
 }
+
+.col-12 {
+	width: 90%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
+	
+}
+
+.col-sm-12{
+	width: 90%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
+}
+
+.col-md-6{
+	width: 90%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
+	min-height: calc(100vh - 100px);
+}
+
+.col-6{
+	width: 90%;
+	margin-bottom: 5%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
+	display: inline-block;
+	min-height: calc(100vh - 100px);
+}
+
 
 .row{
 	padding: 2%;
 }
 
 .button{
-	width: 50%;
+	width: 100%;
+}
+
+.text-box{
+	font-family:'Gruppo', serif;
+	font-size: 1rem;
+	align-content: center;
+	background: url(images/sheet.jpg);
+	max width: 100px;
+	color: #0098C6;
+	padding: 2%;
+	margin: 0 auto;
+	
 }
 
 .nav{
@@ -24,7 +74,6 @@ body {
 
 h1 {
   position: relative;
-  
   background-color: rgba(1,1,1,0.0) !important;
   opacity: 1 !important;
   background-color: transparent !important; 
@@ -41,6 +90,7 @@ h1 {
 	width: 100%;
 	height: 30rem;
 	/*overflow: hidden;*/
+
 }
 
 .image {
@@ -77,27 +127,24 @@ footer {
 
 
 
-
 @media screen and (max-width: 900px ) {
 	.main{padding:10%;}
 	.title { width:60%; padding-right: 6rem; }
 	.image { width: 40%; position: relative; left: 10px;}
-	.button{ width: 90%;}
-	.contact{width: 102%;}
-	.merchbutt{width: 100%;}
+	.button{ width: 90%; height: 90%;}
+	.contact{width: 110%;}
+	
 }
 
 /* On phone screens, make these changes to size*/
-@media screen and (min-device-width : 320px) 
-and (max-device-width : 480px) {
+@media screen and ( max-width: 575px ) {
 	.main{padding: 5%}
 	.text {font-size: 10px}
-	.image { width: 50%; left: 8px;}
-	.title { width:70%; padding-right: 5rem; top:15%}
-	.merchbutt{width:90%;}
+	.image { width: 50%; left: 10px;}
+	.title { width:80%; padding-right: 5rem; top:15%}
 	.button{ width:70%; height: 70%;}
-	.collage{width=100%;}
-	nav { position: relative; width: 40%; left: auto; right: auto; }
+	nav { position: relative; width: 40%;left: 0; right: auto; }
 	footer{ position: relative; right: auto; }
 }
+
 

@@ -88,8 +88,8 @@ h1{
 .image {
 	position: relative;
 	left: 40px;
-	width: 25%;
-	height: 25%;
+	width: 30%;
+	height: 30%;
 	background-size: cover;
 	background-position: 50% 50%;
 
@@ -132,7 +132,7 @@ button{
 @media screen and (max-width: 900px ) {
 
 	.title { width:60%; padding-right: 6rem; }
-	.image { width: 30%; position: relative; left: 10px;}
+	.image { width: 35%; position: relative; left: 10px;}
 	.navbutton{ width:70%; height: 70%;}
 }
 
@@ -140,7 +140,7 @@ button{
 @media screen and ( max-width: 575px ) {
 
 	.text {font-size: 10px}
-	.image { width: 25%; left: 10px;}
+	.image { width: 35%; left: 10px;}
 	.title { width:80%; padding-right: 5rem; top:15%}
 	.navbutton{ width:70%; height: 70%;}
 	nav { position: relative; width: 40%;left: 0; right: auto; }
