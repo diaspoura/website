@@ -3,7 +3,7 @@ body, html {
 }
 
 h6{
-	font-family: 'Source Code Pro', serif;
+  font-family:'Source Code Pro', sans-serif !important;
 }
 
 .main{
