@@ -1,5 +1,6 @@
 body, html {
 	background-color: white;
+	cursor: url(ovo.ani), auto !important;
 }
 
 h6{
