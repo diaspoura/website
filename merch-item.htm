@@ -170,6 +170,9 @@ var ml_account = ml('accounts', '1175686', 'k3d7q0o7v7', 'load');
 			else if (dynamicContent == 'usb-candle-patch') {
 				$('#usb-candle-patch').show();
 			}
+			else if (dynamicContent == 'usb') {
+				$('#usb').show();
+			}
 			// Check if the URL parmeter is empty or not defined, display default content
 			else {
 				$('#default-content').show();
@@ -1267,6 +1270,59 @@ var ml_account = ml('accounts', '1175686', 'k3d7q0o7v7', 'load');
 			</text>
 		</div> <!-- last div of 'col-md-4' -->
 	</div> 
+	</div> <!-- last div of dynamic content container (one item)-->
+	
+	<div id="usb" class="dynamic-content">
+		<div class="row">
+		<div class="col-md-6">
+
+			<!-- Swiper -->
+		<div class="swiper-container swiper23">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img class="piccy" src="images/merch/usb.jpg" style="width:65%"></div>
+			</div>
+		</div>
+	
+		<br>
+		</div> <!-- last div of 'col-md-4' -->
+		<div class="col-md-6">
+			
+			<h1><div class="font-effect-fire-animation">usb album</div></h1>
+			<h6>
+			the official multimedia album of Demonstrations on a light blue & pink USB flash drive
+			<br><br>
+			wtf is the usb? <br>
+			>> the multimedia USB was an original creation of Anjali (Diaspoura) first released in charleston, sc on
+			june 24, 2015. it includes: the 8 track album of Demonstrations, 5 recordings of the live band arrangement, 2 DIY music videos edited by Anjali,
+			and 1 e-zine including art, lyrics, and personal essays formed during the process of producing the album. 
+			<br>
+			</h6>
+			<!-- paypal form -->
+			<text>
+			<br>
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="WE5VHQDHC6XH2">
+			<table>
+			<tr><td><input type="hidden" name="on0" value="Pay What U Can">Pay What U Can</td></tr><tr><td><select name="os0">
+				<option value="yay thank u">yay thank u $12.00 USD</option>
+				<option value="aww sweet">aww sweet $14.00 USD</option>
+				<option value="ohh stoppp">ohh stoppp $16.00 USD</option>
+				<option value="yr too kind!">yr too kind! $20.00 USD</option>
+			</select> </td></tr>
+			</table>
+			<input type="hidden" name="currency_code" value="USD">
+			<br>
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+
+
+
+
+			</text>
+		</div> <!-- last div of 'col-md-4' -->
+	</div> 
 	</div> <!-- last div of dynamic content container (one item)-->	
 
 
@@ -1428,6 +1484,14 @@ var ml_account = ml('accounts', '1175686', 'k3d7q0o7v7', 'load');
 			});
 			
 			var swiper22 = new Swiper('.swiper22', {
+				spaceBetween: 30,
+				pagination: {
+					el: '.swiper-pagination22',
+					clickable: true,
+				},
+			});
+			
+			var swiper23 = new Swiper('.swiper22', {
 				spaceBetween: 30,
 				pagination: {
 					el: '.swiper-pagination22',
