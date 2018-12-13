@@ -1,0 +1,103 @@
+body {
+	background: url(images/carpet1.jpg);
+	background-size: 600px;
+	cursor: url(shiva.cur), auto !important;
+}
+
+.main{
+	padding: 5%;
+}
+
+.row{
+	padding: 2%;
+}
+
+.button{
+	width: 50%;
+}
+
+.nav{
+  background: url(https://media.giphy.com/media/r2DZ7c7zrY1jO/giphy.gif);
+  min-width: 250px;
+  flex: 1;
+}
+
+h1 {
+  position: relative;
+  
+  background-color: rgba(1,1,1,0.0) !important;
+  opacity: 1 !important;
+  background-color: transparent !important; 
+  padding: 20px;
+  text-align: left;
+  font-size: 5rem;
+  margin-bottom: 8rem;
+}
+
+
+.cd-slider {
+
+	position: relative;
+	width: 100%;
+	height: 30rem;
+	/*overflow: hidden;*/
+}
+
+.image {
+	position: relative;
+	left: 50px;
+	width: 30%;
+	height: 40%;
+	background-size: cover;
+	background-position: 50% 50%;
+
+}
+.title {
+	position: relative;
+	top: 30%;
+	right: 0;
+	width: 40%;
+	padding: 2rem 0 0 2rem;
+	text-align: right;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: url(https://media.giphy.com/media/3oEdvaxmd15YTHy6Uo/giphy.gif);
+	background-position: 0% 35%; 
+    color: white;
+    text-align: center;
+	flex: 1;
+}
+
+
+
+
+
+@media screen and (max-width: 900px ) {
+	.main{padding:10%;}
+	.title { width:60%; padding-right: 6rem; }
+	.image { width: 40%; position: relative; left: 10px;}
+	.button{ width: 90%;}
+	.contact{width: 102%;}
+	.merchbutt{width: 100%;}
+}
+
+/* On phone screens, make these changes to size*/
+@media screen and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.main{padding: 5%}
+	.text {font-size: 10px}
+	.image { width: 50%; left: 8px;}
+	.title { width:70%; padding-right: 5rem; top:15%}
+	.merchbutt{width:90%;}
+	.button{ width:70%; height: 70%;}
+	.collage{width=100%;}
+	nav { position: relative; width: 40%; left: auto; right: auto; }
+	footer{ position: relative; right: auto; }
+}
+
