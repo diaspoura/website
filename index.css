@@ -74,7 +74,9 @@ footer {
 	flex: 1;
 }
 
-
+.collage{
+	width: 20%;
+}
 
 
 
@@ -84,6 +86,7 @@ footer {
 	.image { width: 40%; position: relative; left: 10px;}
 	.button{ width: 90%;}
 	.contact{width: 102%;}
+	.collage{width: 110%; float: right;}
 	.merchbutt{width: 100%;}
 }
 
@@ -96,7 +99,7 @@ and (max-device-width : 480px) {
 	.title { width:70%; padding-right: 5rem; top:15%}
 	.merchbutt{width:90%;}
 	.button{ width:70%; height: 70%;}
-	.collage{width=110%;}
+	.collage{width:110%; float: none;}
 	nav { position: relative; width: 40%; left: auto; right: auto; }
 	footer{ position: relative; right: auto; }
 }
