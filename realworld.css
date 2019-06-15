@@ -1,14 +1,18 @@
 body {
-	background-color: black !important;
-	background-size: 600px;
+	background: url(images/towel.jpg);
+	background-size: 500px;
+	padding: 0% !important;
 }
 
-.main{
-
-}
-
-.row{
-
+.text-box{
+	font-family:'Gruppo', serif;
+	font-size: 1rem;
+	align-content: center;
+	background: url(images/sheet.jpg);
+	max width: 100px;
+	color: #0098C6;
+	padding: 2%;
+	margin: 0 auto;
 }
 
 .button{
@@ -22,23 +26,51 @@ body {
 }
 
 p {
-  color: #f1c232;
-  font-family:'Gruppo', serif;
-
+  color: black !important;
+  font-family:'Gruppo', serif !important;
   font-size: 20px;
 
-
-  text-align: center;
 }
 
 h1 {
-  color: light blue !important;
+  color: black !important;
   font-family:'Gruppo', serif !important;
-
-  font-size: 50px !important;
-
-  text-align: center;
+  font-size: 36px !important;
 }
+  
+h2 {
+  color: black !important;
+  font-family:'Krona One', serif !important;
+  font-size: 24px !important;
+}
+
+h3 {
+  color: black !important;
+  font-family:'Krona One' !important;
+  font-size: 18px !important;
+}
+
+
+/* unvisited link */
+a:link {
+  color: black !important;
+}
+
+/* visited link */
+a:visited {
+  color: black !important;
+}
+
+/* mouse over link */
+a:hover {
+  color: white !important;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
 
 #go{
   background: url(https://media.giphy.com/media/3ohhwutQL0CDTq3kKA/giphy.gif);
@@ -62,7 +94,7 @@ h1 {
 
 .text {
   color: yellow;
-  font-family:'Gruppo', serif;
+  font-family:'Gruppo' !important;
   font-weight:normal;
   font-size: 29px;
   position: absolute;
@@ -70,7 +102,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center;
+
 }
 
 
