@@ -2,7 +2,24 @@ body {
 	background: url(images/towel.jpg);
 	background-size: 500px;
 	padding: 0% !important;
+	margin:0 !important;
 }
+
+.main{
+	padding: 0% !important;
+		margin:0 !important;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+
+.button{
+	width: 50%;
+}
+
 
 .text-box{
 	font-family:'Gruppo', serif;
@@ -10,6 +27,17 @@ body {
 	align-content: center;
 	background: url(images/sheet.jpg);
 	max width: 100px;
+	color: #0098C6;
+	padding: 2%;
+	margin: 0 auto;
+}
+
+.text-box2{
+	font-family:'Gruppo', serif;
+	font-size: 1rem;
+	align-content: center;
+	background: url(images/dirtylaundry/flames.png);
+	background-size: 300px;
 	color: #0098C6;
 	padding: 2%;
 	margin: 0 auto;
@@ -27,15 +55,15 @@ body {
 
 p {
   color: black !important;
-  font-family:'Gruppo', serif !important;
+  font-family:'B612 Mono', serif !important;
   font-size: 20px;
 
 }
 
 h1 {
   color: black !important;
-  font-family:'Gruppo', serif !important;
-  font-size: 36px !important;
+  font-family:'Michroma', serif !important;
+  font-size: 32px !important;
 }
   
 h2 {
@@ -45,9 +73,9 @@ h2 {
 }
 
 h3 {
-  color: black !important;
-  font-family:'Krona One' !important;
-  font-size: 18px !important;
+  color: white !important;
+  font-family:'B612 Mono' !important;
+  font-size: 32px !important;
 }
 
 
@@ -68,7 +96,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: red;
+  color: red !important;
 }
 
 

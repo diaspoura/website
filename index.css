@@ -34,6 +34,10 @@ h1 {
   margin-bottom: 8rem;
 }
 
+.collage{
+	width:90&;
+}
+
 
 .cd-slider {
 
@@ -72,10 +76,6 @@ footer {
     color: white;
     text-align: center;
 	flex: 1;
-}
-
-.collage{
-	width: 20%;
 }
 
 
