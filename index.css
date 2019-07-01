@@ -88,6 +88,7 @@ footer {
 	.contact{width: 102%;}
 	.collage{width: 110%; float: right;}
 	.merchbutt{width: 100%;}
+	.leftcol-rightalign{margin-left:auto !important; margin-right:auto !important; width:90%;}
 }
 
 /* On phone screens, make these changes to size*/
@@ -100,6 +101,7 @@ and (max-device-width : 480px) {
 	.merchbutt{width:90%;}
 	.button{ width:70%; height: 70%;}
 	.collage{width:110%; float: none;}
+	.leftcol-rightalign{margin-left:auto !important; margin-right:auto !important; width:90%;}
 	nav { position: relative; width: 40%; left: auto; right: auto; }
 	footer{ position: relative; right: auto; }
 }

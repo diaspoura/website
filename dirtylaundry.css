@@ -20,10 +20,12 @@ body {
 	width: 50%;
 }
 
+.tab{
+	margin-left: 40px;
+}
+
 
 .text-box{
-	font-family:'Gruppo', serif;
-	font-size: 1rem;
 	align-content: center;
 	background: url(images/sheet.jpg);
 	max width: 100px;
@@ -36,8 +38,8 @@ body {
 	font-family:'Gruppo', serif;
 	font-size: 1rem;
 	align-content: center;
-	background: url(images/dirtylaundry/flames.png);
-	background-size: 300px;
+	background: url(images/dirtylaundry/moneywash2.png);
+
 	color: #0098C6;
 	padding: 2%;
 	margin: 0 auto;
@@ -53,10 +55,28 @@ body {
   flex: 1;
 }
 
+.banner-image {
+	position: relative;
+	left: 50px;
+	width: 30%;
+	height: 40%;
+	background-size: cover;
+	background-position: 50% 50%;
+
+}
+.title {
+	position: relative;
+	top: 30%;
+	right: 0;
+	width: 40%;
+	padding: 2rem 0 0 2rem;
+	text-align: right;
+}
+
 p {
   color: black !important;
   font-family:'B612 Mono', serif !important;
-  font-size: 20px;
+  font-size: 19px;
 
 }
 
@@ -81,12 +101,12 @@ h3 {
 
 /* unvisited link */
 a:link {
-  color: black !important;
+  color: blue !important;
 }
 
 /* visited link */
 a:visited {
-  color: black !important;
+  color: blue !important;
 }
 
 /* mouse over link */
