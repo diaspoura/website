@@ -1,20 +1,50 @@
 
-html,body
+body
 {
     background: url(images/merch/red-silk.jpg);
-    background-size: 500px;
+    background-size: 350px;
     width: 100%;
     height: 100%;
     margin: 0px;
-    padding: 0px;
     overflow-x: hidden; 
 }
 
+
+.container-fluid{
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+
+
 .main{
-	padding-left: 0%;
-	padding-right: 0%;
+	padding-left: 0% !important;
+	padding-right: 0% !important;
 	padding-bottom: 10%;
 	padding-top: 3%;
+  margin: 0px !important;
+}
+
+.banner{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border:none;
+   background-color:transperant;
+   outline:none;
+      display: block;
+ -webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+
+.banner:hover{
+  margin:0;
+ outline:5px solid #FC0;
+ border: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
 }
 
 
@@ -90,25 +120,28 @@ html,body
   flex: 1;
 }
 
-h1 {
+
+h1{
   position: relative;
-  
-  background-color: rgba(1,1,1,0.0) !important;
-  opacity: 1 !important;
-  background-color: transparent !important; 
-  padding: 20px;
-  text-align: left;
-  font-size: 5rem;
+  font-family:'Gruppo', sans-serif !important;
+  size: 15px;
   margin-bottom: 8rem;
 }
 
+h6{
+  font-family: 'Tomorrow', sans-serif !important;
+  size: 15px;
+  color: white !important;
+  
+}
+
 .text {
-  color: #1589FF;
-  font-family:'Gruppo', serif;
+  color: yellow;
+  font-family:'Gruppo', serif !important;
   font-weight:normal;
   font-size: 20px;
   position: absolute;
-  top: 50%;
+  top: 50% ;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -148,9 +181,6 @@ footer {
 }
 
 
-
-
-
 .vcenter {
     display: inline-block;
     vertical-align: middle;
@@ -159,11 +189,8 @@ footer {
 
 
 .previewPic{
-	width:70%;
-	
+	width:95%;
 }
-
-
 
 
 

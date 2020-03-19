@@ -1,11 +1,8 @@
 body, html {
-	background-color: white;
-	cursor: url(ovo.ani), auto !important;
+	background: url(images/merch/red-silk.jpg);
+	background-size: 350px;
 }
 
-h6{
-  font-family:'Source Code Pro', sans-serif !important;
-}
 
 .main{
 	padding-left: 5%;
@@ -50,13 +47,6 @@ h6{
 	min-height: calc(100vh - 100px);
 }
 
-text{
-  color: red;
-  font-family:'Gruppo', serif;
-  font-weight:normal;
-  font-size: 20px;
-}
-
 .row{
 	padding: 2%;
 }
@@ -79,6 +69,17 @@ h1{
   position: relative;
   font-family:'Gruppo', sans-serif !important;
   margin-bottom: 8rem;
+}
+
+h6{
+  font-family:'Source Code Pro', sans-serif !important;
+}
+
+text{
+  color: red;
+  font-family:'Gruppo', serif;
+  font-weight:normal;
+  font-size: 20px;
 }
 
 .piccy{
@@ -130,6 +131,10 @@ button{
 
 
 
+
+
+
+
 @media screen and (max-width: 900px ) {
 
 	.title { width:60%; padding-right: 6rem; }
@@ -149,3 +154,56 @@ button{
 	button{width:8%;}
 }
 
+
+
+
+
+
+
+/* editting from w3schools example */
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}

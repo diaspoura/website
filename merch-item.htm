@@ -97,81 +97,52 @@ var ml_account = ml('accounts', '1175686', 'k3d7q0o7v7', 'load');
 	 
 		 $(document).ready(function() {
 	 
-			// Check if the URL parameter is md-sporty-tee
-			if (dynamicContent == 'sporty-tee') {
-				$('#sporty-tee').show();
+			// Check if the URL parameter is item
+			if (dynamicContent == 'cooling-it-shirt') {
+				$('#cooling-it-shirt').show();
 			}
-			// Check if the URL parameter is md-reverse-logo-tee
-			else if (dynamicContent == 'reverse-logo-tee') {
-				$('#reverse-logo-tee').show();
+			// Check if the URL parameter is item
+			else if (dynamicContent == 'cutie-capri') {
+				$('#cutie-capri').show();
 			}
-			// Check if the URL parameter is bananas
-			else if (dynamicContent == 'bb-tank') {
+			// Check if the URL parameter is item
+			else if (dynamicContent == 'heartthrob-shirt') {
+				$('#heartthrob-shirt').show();
 
-				$('#bb-tank').show();
-
 			}
-			// Check if the URL parameter is bb-doll-tee
-			else if (dynamicContent == 'bb-doll-tee') {
-				$('#bb-doll-tee').show();
+			else if (dynamicContent == 'breezy-tank') {
+				$('#breezy-tank').show();
 			}
 
-			else if (dynamicContent == 'comfy-tee') {
-				$('#comfy-tee').show();
+			else if (dynamicContent == 'saturday-shirt') {
+				$('#saturday-shirt').show();
 			}
 
-			else if (dynamicContent == 'unsweet-tee') {
-				$('#unsweet-tee').show();
+			else if (dynamicContent == 'biz-jacket') {
+				$('#biz-jacket').show();
 			}
 
-			else if (dynamicContent == 'scoop-tank') {
-				$('#scoop-tank').show();
+			else if (dynamicContent == 'bb-shorts') {
+				$('#bb-shorts').show();
 			}
 
-			else if (dynamicContent == 'tough-tank') {
-				$('#tough-tank').show();
+			else if (dynamicContent == 'silky-tank') {
+				$('#silky-tank').show();
 			}
 
-			else if (dynamicContent == 'athlete-tee') {
-				$('#athlete-tee').show();
+			else if (dynamicContent == 'ruby-skirt') {
+				$('#ruby-skirt').show();
 			}
 
-			else if (dynamicContent == 'spagetti-tank') {
-				$('#spagetti-tank').show();
+			else if (dynamicContent == 'racer-shirt') {
+				$('#racer-shirt').show();
 			}
 
-			else if (dynamicContent == 'long-sleeve-shirt') {
-				$('#long-sleeve-shirt').show();
+			else if (dynamicContent == 'lemon-lime-shirt') {
+				$('#lemon-lime-shirt').show();
 			} 
-			else if (dynamicContent == 'biz-tank') {
-				$('#biz-tank').show();
-			}
-			else if (dynamicContent == 'sunny-tank') {
-				$('#sunny-tank').show();
-			}
-			else if (dynamicContent == 'luvvly-tee') {
-				$('#luvvly-tee').show();
-			}
-			else if (dynamicContent == 'uni-tee') {
-				$('#uni-tee').show();
-			}
-			else if (dynamicContent == 'sweet-tee') {
-				$('#sweet-tee').show();
-			}
-			else if (dynamicContent == 'beefy-tank') {
-				$('#beefy-tank').show();
-			}
-			else if (dynamicContent == 'no-games-tee') {
-				$('#no-games-tee').show();
-			}
-			else if (dynamicContent == 'candle-patch') {
-				$('#candle-patch').show();
-			}
-			else if (dynamicContent == 'usb-candle-patch') {
-				$('#usb-candle-patch').show();
-			}
-			else if (dynamicContent == 'usb') {
-				$('#usb').show();
+			else if (dynamicContent == 'patch') {
+				$('#patch').show();
 			}
 			// Check if the URL parmeter is empty or not defined, display default content
 			else {
@@ -193,57 +164,40 @@ var ml_account = ml('accounts', '1175686', 'k3d7q0o7v7', 'load');
 	
 	<!-- Dynamic Sections (Changing Information) -->
 	
-	<div id="sporty-tee" class="container dynamic-content">
+	<div id="cooling-it-shirt" class="container dynamic-content">
 		
-		<div class="row">
-		<div class="col-12 col-sm-12 col-md-6">
-	
-		<!-- Swiper #1-->
-		<div class="swiper-container swiper1">
-			<div class="swiper-wrapper">
-				<div class="swiper-slide"><img class="piccy" src="images/merch/shirtsTouchedUp/shirt01.1.jpg" style="width:65%"></div>
-				<div class="swiper-slide"><img class="piccy" src="images/merch/shirtsTouchedUp/shirt01.2.jpg" style="width:65%"></div>
-				<div class="swiper-slide"><img class="piccy" src="images/merch/shirtsTouchedUp/shirt01.3.jpg" style="width:65%"></div>
-			</div>
-		</div>
-		<!-- Add Arrows -->
-		<div class="swiper-button-next swiper-button-next1"></div>
-		<div class="swiper-button-prev swiper-button-prev2"></div>
+    <!-- The four columns -->
+    <div class="row">
+      <div class="column">
+        <img src="images/merch/merch_spring2020/cooling-it-shirt1.jpg" alt="Cooling It Shirt 1" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/merch/merch_spring2020/cooling-it-shirt2.jpg" alt="Cooling It Shirt 2" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/merch/merch_spring2020/cooling-it-shirt3.jpg" alt="Cooling It Shirt 3" style="width:100%" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="images/merch/merch_spring2020/cooling-it-shirt3.jpg" alt="Cooling It Shirt 4" style="width:100%" onclick="myFunction(this);">
+      </div>
+    </div>
+    
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:100%">
+      <div id="imgtext"></div>
+    </div>
+    
+    <script>
+    function myFunction(imgs) {
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+    }
+    </script>
 
-
-
-
-		<br>
-		</div> <!-- last div of 'col-md-4' -->
-		<div class="col-12 col-sm-12 col-md-6">
-			
-			<h1><div class="font-effect-fire-animation">sporty tee</div></h1>
-			<h6>labeled large, fits like a unisex medium-large
-			<br><br>
-			pre-worn fabric for the eco-feminists. each found in SC, hand-pressed and bedazzled by diaspoura.</h6>
-			<br>
-			<!-- paypal form for 'md sporty tee' -->
-			<text>
-			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="GWV6ZT58HWUC4">
-				<table>
-				<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-					<option value="yay thank u">yay thank u $15.00 USD</option>
-					<option value="aw so sweet">aww sweet $17.50 USD</option>
-					<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-					<option value="yr too kind!">yr too kind! $22.50 USD</option>
-				</select> </td></tr>
-				</table>
-				<input type="hidden" name="currency_code" value="USD">
-				<br>
-				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-		</form>
-		</text>
-		</div> <!-- last div of 'column' -->
-	</div> <!-- last div of 'md-sporty-tee' dc -->
 	</div>
 	
 	
