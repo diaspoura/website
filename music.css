@@ -123,6 +123,21 @@ footer {
 	flex: 1;
 }
 
+.popup-btn{
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    width: 100px;
+  padding: 1%;
+  	z-index: 4;
+  transform-origin: 60% 0%;
+  -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
 
 
 

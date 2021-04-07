@@ -10,6 +10,12 @@
     <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
     <script rel="stylesheet" href="bootstrap-social.css"></script>
+    
+    
+    
+  <!-- Link for Paypal Smart Button-->
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+  
 		
 	<!-- Links for Google Fonts -->
 		<link rel="stylesheet"
@@ -39,12 +45,20 @@
 								<img class="image" src="images/turmeric2.png" style="position: relative; left: 15%; top: 0;">
 								<a href="https://diaspoura.com"><img class="title" src="images/logoblue.png"  style="position: absolute; left:30%; cursor: url(jai.cur), auto;"></a>
 		</div>
+
 	</div>
+  
+    <div class="row">
+      <br></br>
+      <h4><a href="https://diaspoura.com/merch.htm">< back to merch store</a></h4>
+      <br></br>
+    </div>
 	
 				 		
 	<script src="jquery-3.3.1.js"></script>
   
 	<script type="text/javascript">
+    
 		// Parse the URL parameter
 		function getParameterByName(name, url) {
 				if (!url) {
@@ -74,17 +88,17 @@
 				$('#breaking-chains-tank').show();
 			}
 
-			else if (dynamicContent == 'sunday-shirt') {
-				$('#sunday-shirt').show();
+			else if (dynamicContent == 'sunshine-shirt') {
+				$('#sunshine-shirt').show();
 			}
 
 			else if (dynamicContent == 'biz-jacket') {
 				$('#biz-jacket').show();
 			}
       
-      else if (dynamicContent == 'sunshine-tank') {
-				$('#sunshine-tank').show();
-			}
+//      else if (dynamicContent == 'sunshine-tank') {
+//				$('#sunshine-tank').show();
+//			}
 
 			else if (dynamicContent == 'bb-shorts') {
 				$('#bb-shorts').show();
@@ -110,6 +124,12 @@
 			}
       else if (dynamicContent == 'fall-2018-lookbook') {
 				$('#fall-2018-lookbook').show();
+			}
+      else if (dynamicContent == 'digital-zine') {
+				$('#digital-zine').show();
+			}
+      else if (dynamicContent == 'print-zine') {
+				$('#print-zine').show();
 			}
 			// Check if the URL parmeter is empty or not defined, display default content
 			else {
@@ -192,9 +212,20 @@
       expandImg13.src = imgs.src;
       expandImg13.parentElement.style.display = "block";
     }
-
-
     
+  function myFunction14(imgs) {
+      var expandImg14 = document.getElementById("expandedImg14");
+      expandImg14.src = imgs.src;
+      expandImg14.parentElement.style.display = "block";
+    }
+    
+  function myFunction15(imgs) {
+      var expandImg15 = document.getElementById("expandedImg15");
+      expandImg15.src = imgs.src;
+      expandImg15.parentElement.style.display = "block";
+    }
+  
+  
   
   
 	</script>
@@ -205,7 +236,10 @@
         
 	<!-- Default Dynamic Section -->
 	<div id="default-content" class="dynamic-content">
-	To be continued...
+    <text><center>
+    Hmm, I don't seem to have what you're looking for! Try something else? :-)
+    Or contact me at diaspoura@gmail.com if you think there's an error here.
+    </center></text>
 	</div>
 	
   
@@ -241,30 +275,35 @@
         
         <h1><div class="font-effect-fire-animation">cooling it shirt</div></h1>
         <h6>
-        Kym is wearing the one-of-a-kind Marigold Cooling It Shirt. You and this raised v neck could be
-        straight up vibing in the club or in the comfort of your home.
+        Kym is wearing the one-of-a-kind Marigold Cooling It Shirt. In this raised v neck, you could be vibing in the club or in the comfort of your home.
         </h6>
         <!-- paypal form -->
         <text>
         <br>
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="2Q84H2S8693G6">
-        <table>
-        <tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-          <option value="yay thank u">yay thank u $15.00 USD</option>
-          <option value="aw so sweet">aw so sweet $17.50 USD</option>
-          <option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-          <option value="yr too kind!">yr too kind! $22.50 USD</option>
-        </select> </td></tr>
-        </table>
-        <input type="hidden" name="currency_code" value="USD">
-        <br>
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        </form>	
+        <center>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="X6YJDG6CY6B4C">
+          <table>
+          <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+            <option value="high">high $80.00 USD</option>
+            <option value="middle">middle $60.00 USD</option>
+            <option value="low">low $40.00 USD</option>
+          </select> </td></tr>
+          </table>
+          <br>
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+          </center>
   
         </text>
+        
+
+          
+
+
       </div> <!-- last div of 'col-md-4' -->
     </div> <!-- last div of 'md-reverse-logo-tee' dc-->
 	</div>
@@ -303,28 +342,33 @@
 			<h1><div class="font-effect-fire-animation">q.t. capri</div></h1>
 			<h6>
       Nicky is sporting the one-of-a-kind Marigold Q.T. Capri pants. Who doesn't smile at the sight of a nice
-      ruffle? And boom - the red logo on the butt? A twist! She's got it all. 10/10.
+      ruffle? And the red logo on the behind? Oh, they know they're cute.
+      <br>
+      And remember: all clothes are non-binary.
       
 			</h6>
 			<!-- paypal form -->
 			<text>
 			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="2Q84H2S8693G6">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aw so sweet">aw so sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>	
+      <center>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="A4CKKMRFXNYVY">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+          <option value="high">high $80.00 USD</option>
+          <option value="middle">middle $60.00 USD</option>
+          <option value="low">low $40.00 USD</option>
+        </select> </td></tr>
+        </table>
+        <br>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        </center>
+
+
 
 			</text>
 		</div> <!-- last div of 'col-md-4' -->
@@ -365,34 +409,36 @@
 			
 			<h1><div class="font-effect-fire-animation">heartthrob tank</div></h1>
 			<h6>
-      Kym is wearing the one-of-a-kind Marigold Heartthrob Tank. Made for the hunky babe that awaits, ferociously but lovingly, inside you.
+      Kym is wearing the one-of-a-kind Marigold Heartthrob Tank. Made for the hunky babe that awaits, ferociously and lovingly, inside you.
 			</h6>
 			<!-- paypal form -->
 			<text>
 			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="VJ6WWX2DZ3ZF8">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aww sweet">aww sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
+      <center>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="H3NR2BZXSRALC">
+      <table>
+      <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+        <option value="high">high $80.00 USD</option>
+        <option value="middle">middle $60.00 USD</option>
+        <option value="low">low $40.00 USD</option>
+      </select> </td></tr>
+      </table>
+      <br>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      </center>
+
 
 			</text>
 		</div> <!-- last div of 'col-md-4' -->
 	</div> 
 	</div> <!-- last div of 'sm-md-bb-tank' dc-->
 	
-	<div id="sunday-shirt" class="dynamic-content">
+	<div id="sunshine-shirt" class="dynamic-content">
 		
     <div class="row">
       <div class="col-12 col-md-6">
@@ -406,13 +452,13 @@
       <!-- The four columns -->
       <div class="row">
         <div class="column">
-          <img src="images/merch/merch_spring2020/sunday-shirt1.jpg" alt="sunday shirt 1" style=width:100% onclick="myFunction5(this);">
+          <img src="images/merch/merch_spring2020/sunday-shirt1.jpg" alt="sunshine shirt 1" style=width:100% onclick="myFunction5(this);">
         </div>
         <div class="column">
-          <img src="images/merch/merch_spring2020/sunday-shirt2.jpg" alt="sunday shirt 2" style=width:100% onclick="myFunction5(this);">
+          <img src="images/merch/merch_spring2020/sunday-shirt2.jpg" alt="sunshine shirt 2" style=width:100% onclick="myFunction5(this);">
         </div>
         <div class="column">
-          <img src="images/merch/merch_spring2020/sunday-shirt3.jpg" alt="sunday shirt 3" style=width:100% onclick="myFunction5(this);">
+          <img src="images/merch/merch_spring2020/sunday-shirt3.jpg" alt="sunshine shirt 3" style=width:100% onclick="myFunction5(this);">
         </div>
       </div>
       
@@ -420,31 +466,30 @@
 		</div> <!-- last div of 'col-md-4' -->
 		<div class="col-md-6">
 			
-			<h1><div class="font-effect-fire-animation">sunday shirt</div></h1>
+			<h1><div class="font-effect-fire-animation">sunshine shirt</div></h1>
 			<h6>
-			Nicky is wearing the one-of-a-kind Marigold Sunday Shirt. We're not talkin' bout the
-      day, we're talkin' ice cream. Classic. Sweet. Well...I guess it does have a respectability vibe to it in that case too.... it is
-      cozy enough for a day in bed... It's in the eye of the beholder? It goes both ways?
+			Nicky is wearing the one-of-a-kind Marigold Sunshine Shirt. You are a shiny beam of goodness and deserve to be treated as such.
 			</h6>
 			<!-- paypal form -->
 			<text>
 			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="HQG3CSSRFGDWU">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aww sweet">aww sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
+      <center>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="E3U96VHGUFN9N">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+          <option value="high">high $80.00 USD</option>
+          <option value="middle">middle $60.00 USD</option>
+          <option value="low">low $40.00 USD</option>
+        </select> </td></tr>
+        </table>
+        <br>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        </center>
 
 
 			</text>
@@ -489,23 +534,25 @@
 			</h6>
 			<!-- paypal form -->
 			<text>
-			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="7A87X482Z88S2">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aww sweet">aww sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
+        <center>
+    <br>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="3TPGJHADLR3LE">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+          <option value="high">high $80.00 USD</option>
+          <option value="middle">middle $60.00 USD</option>
+          <option value="low">low $40.00 USD</option>
+        </select> </td></tr>
+        </table>
+        <br>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        </center>
+
 
 
 
@@ -550,22 +597,23 @@
 			<!-- paypal form -->
 			<text>
 			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="WE5VHQDHC6XH2">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aww sweet">aww sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
+      <center>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="SHV5XTNKF2GYU">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+          <option value="high">high $80.00 USD</option>
+          <option value="middle">middle $60.00 USD</option>
+          <option value="low">low $40.00 USD</option>
+        </select> </td></tr>
+        </table>
+        <br>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        </center>
 
 
 
@@ -606,31 +654,30 @@
 			
 			<h1><div class="font-effect-fire-animation">silky tank</div></h1>
 			<h6>
-			Nicky is wearing the Marigold Silky Tank. For anyone who loves a Tasteful Drape of fabric (me),
-      just think - you and the Drape can become One in this number.
-			<br><br>
-			pre-worn fabric for the eco-feminists. found in the South, hand-pressed + bedazzled by diaspoura
+			Nicky is wearing the one-of-a-kind Marigold Silky Tank. For anyone who loves a tasteful drape of fabric (me),
+      this garment will cling to your beautiful curves, and hang in all the right places.
 			<br>
 			</h6>
 			<!-- paypal form -->
 			<text>
 			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="M95G7VBEEYHQG">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aww sweet">aww sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
+      <center>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="X392L4T37CCUY">
+      <table>
+      <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+        <option value="high">high $80.00 USD</option>
+        <option value="middle">middle $60.00 USD</option>
+        <option value="low">low $40.00 USD</option>
+      </select> </td></tr>
+      </table>
+      <br>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      </center>
 
 			</text>
 		</div> <!-- last div of 'col-md-4' -->
@@ -675,27 +722,24 @@
 			</h6>
 			<!-- paypal form -->
 			<text>
-			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="M95G7VBEEYHQG">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aww sweet">aww sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
-
-
-
-
+        <br>
+        <center>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="49RN7WQT855BU">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+          <option value="high">high $80.00 USD</option>
+          <option value="medium">medium $60.00 USD</option>
+          <option value="low">low $40.00 USD</option>
+        </select> </td></tr>
+        </table>
+        <br>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        </center>
 			</text>
 		</div> <!-- last div of 'col-md-4' -->
 	</div> 
@@ -736,23 +780,24 @@
 			</h6>
 			<!-- paypal form -->
 			<text>
-			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="2LC22R7CUCCHU">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aww sweet">aww sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
+        <center>
+        <br>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="L3Z9TSPMDB8WL">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+          <option value="high">high $80.00 USD</option>
+          <option value="middle">middle $60.00 USD</option>
+          <option value="low">low $40.00 USD</option>
+        </select> </td></tr>
+        </table>
+        <br>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        </center>
 
 			</text>
 		</div> <!-- last div of 'col-md-4' -->
@@ -794,29 +839,31 @@
 			
 			<h1><div class="font-effect-fire-animation">lemon/lime tank</div></h1>
 			<h6>
-			Nicky is wearing the one-of-a-kind Marigold Lemon/Lime Tank! People always said you
-      sounded fresh and fruity - now you can have a shirt to match. >:) 
+			Nicky is wearing the one-of-a-kind Marigold Lemon/Lime Tank! People have always said you're too fresh and fruity - and now you can have a shirt to match. >:) Mhm.
 			<br>
 			</h6>
 			<!-- paypal form -->
 			<text>
-			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="2Q84H2S8693G6">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aw so sweet">aw so sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
+        <center>
+        <br>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="53PKE7E3GBJNG">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+          <option value="high">high $80.00 USD</option>
+          <option value="middle">middle $60.00 USD</option>
+          <option value="low">low $40.00 USD</option>
+        </select> </td></tr>
+        </table>
+        <br>
+        
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+        </center>
+
 
 
 			</text>
@@ -857,30 +904,30 @@
 			
 			<h1><div class="font-effect-fire-animation">racer shirt</div></h1>
 			<h6>
-			labeled small, fits like a unisex small-medium
+			Nicky and Anjali are wearing the one-of-a-kind Marigold Racer Shirt! People have always said you won't stop talking about race - and now you'll have a shirt to match. >:) Vroom vroom, y'all.
 			<br>
-			pre-worn fabric for the eco-feminists. found in SC, hand-pressed + bedazzled by diaspoura
 			<br>
 			</h6>
 			<!-- paypal form -->
 			<text>
+        <center>
 			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="8D84C8HTMCAUJ">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aw so sweet">aw so sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="KGFUDNZ9PUXHL">
+      <table>
+      <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+        <option value="high">high $80.00 USD</option>
+        <option value="middle">middle $60.00 USD</option>
+        <option value="low">low $40.00 USD</option>
+      </select> </td></tr>
+      </table>
+      <br>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      </center>
 
 
 			</text>
@@ -911,38 +958,179 @@
 		</div> <!-- last div of 'col-md-4' -->
 		<div class="col-md-6">
 			
-			<h1><div class="font-effect-fire-animation">luvvly tee</div></h1>
+			<h1><div class="font-effect-fire-animation">marigold patch</div></h1>
 			<h6>
-      Do you have a belonging that would look amazing with the Marigold print? Are you just tryna pin this
+      Do you have a special belonging that would look amazing with the Marigold print? Are you just tryna pin this
       in any visible place to rep your favorite artist Diaspoura to the world? Aw shucks, you are
       making me blush !
 			</h6>
 			<!-- paypal form -->
 			<text>
 			<br>
-			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="XBSTKGNXVWT4U">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pay What U Want">Pay What U Can</td></tr><tr><td><select name="os0">
-				<option value="yay thank u">yay thank u $15.00 USD</option>
-				<option value="aw so sweet">aw so sweet $17.50 USD</option>
-				<option value="ohh stoppp">ohh stoppp $20.00 USD</option>
-				<option value="yr too kind!">yr too kind! $22.50 USD</option>
-			</select> </td></tr>
-			</table>
-			<input type="hidden" name="currency_code" value="USD">
-			<br>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style = "cursor: url(nat1052.cur), auto">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>
-
+      <center>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="SKTAUDPSXV9PQ">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+          <option value="high">high $40.00 USD</option>
+          <option value="middle">middle $30.00 USD</option>
+          <option value="low">low $20.00 USD</option>
+        </select> </td></tr>
+        </table>
+        <br>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+      </center>
 			</text>
 		</div> <!-- last div of 'col-md-4' -->
 	</div> 
+	</div> <!-- last div of dynamic content container (one item)-->
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <div id="digital-zine" class="dynamic-content">
+
+		<div class="row">
+      <div class="col-12 col-md-6">
+        
+        <div class="gallerycontainer">
+          <img id="expandedImg14" src="images/merch/digital-zine.png" style="width:100%">
+        </div>
+        
+        
+      <!-- The four columns -->
+      <div class="row">
+        <div class="column">
+          <img src="images/merch/digital-zine.png" alt="zine 1" style=width:100% onclick="myFunction14(this);">
+        </div>
+        <div class="column">
+          <img src="images/merch/digital-zine2.png" alt="zine 2" style=width:100% onclick="myFunction14(this);">
+        </div>
+      </div>
+    <br>
+    
+		</div> <!-- last div of 'col-md-4' -->
+		<div class="col-md-6">
+			
+			<h1><div class="font-effect-fire-animation">Studies On Love: The Digital Files</div></h1>
+			<h6>
+      Would you like my latest <a href="https://diaspoura.com/merch-item.htm#dc=print-zine">print zine</a> Studies On Love to travel with you by phone or computer? Or are
+      you living outside the US and wanting access to these universal goods? Well my friend, this edition is just right for you.
+      <br></br>
+      
+      Studies On Love is a vision of care, desire, healing, and pleasure for every relationship.
+      It includes 40 colorful pages of guides, tools, and methods on the practices of facilitation,
+      conflict mediation, abolition, polyamory, and digital self-care.
+      Written and designed by Anjali of Diaspoura, the zine is based on years of experience in
+      community organizing, anti-capitalist art-making, and establishing chosen family.
+			</h6>
+			<!-- paypal form -->
+			<text><center>
+			<br>
+      
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="RZFU248A7RJ92">
+      <table>
+      <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+        <option value="high">high $40.00 USD</option>
+        <option value="middle">middle $20.00 USD</option>
+        <option value="low">low $10.00 USD</option>
+      </select> </td></tr>
+      </table>
+      <br>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+
+    
+
+
+
+
+    
+    </center></text>
+		</div> <!-- last div of 'col-md-4' -->
+  </div> 
 	</div> <!-- last div of dynamic content container (one item)-->	
 
 	
+  
+  <div id="print-zine" class="dynamic-content">
+
+		<div class="row">
+      <div class="col-12 col-md-6">
+        
+        <div class="gallerycontainer">
+          <img id="expandedImg15" src="images/merch/print-zine.jpg" style="width:100%">
+        </div>
+        
+        
+      <!-- The four columns -->
+      <div class="row">
+        <div class="column">
+          <img src="images/merch/print-zine.jpg" alt="zine 1" style=width:100% onclick="myFunction15(this);">
+        </div>
+        <div class="column">
+          <img src="images/merch/print-zine1.jpg" alt="zine 2" style=width:100% onclick="myFunction15(this);">
+        </div>
+      </div>
+    <br>
+    
+		</div> <!-- last div of 'col-md-4' -->
+		<div class="col-md-6">
+			
+			<h1><div class="font-effect-fire-animation">Studies On Love: The Zine</div></h1>
+			<h6>
+      a limited edition of 200 copies on full color, high quality paper
+      <br></br>
+      
+      Studies On Love is a vision of care, desire, healing, and pleasure for every relationship.
+      It includes 40 pages of guides, tools, and methods on the practices of facilitation,
+      conflict mediation, abolition, polyamory, and digital self-care.
+      Written and designed by Anjali of Diaspoura, the zine is based on years of experience in
+      community organizing, anti-capitalist art-making, and establishing chosen family.
+			</h6>
+			<!-- paypal form -->
+			<br>
+      <text><center>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick">
+      <input type="hidden" name="hosted_button_id" value="VLUJZQWPZZVGN">
+      <table>
+      <tr><td><input type="hidden" name="on0" value="Sliding Scale">Sliding Scale <a href="#sliding">(How do I choose?)</a></td></tr><tr><td><select name="os0">
+        <option value="high">high $50.00 USD</option>
+        <option value="middle">middle $25.00 USD</option>
+        <option value="low">low $15.00 USD</option>
+      </select> </td></tr>
+      </table>
+      <br>
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+      </form>
+      </text></center>
+
+
+			
+		</div> <!-- last div of 'col-md-4' -->
+	</div> 
+	</div> <!-- last div of dynamic content container (one item)-->	
 	
 
 
@@ -1086,6 +1274,44 @@
       
       
   </div>
+
+
+
+<br>
+          <div class="row" style="padding-right:10%; padding-left:10%;">
+
+            <div class="col-6 col-md-4">
+              
+              <img src="images/merch/PAS-logo.png" style="height:100%; width:100%; opacity:1;">
+              
+            </div>
+            <div class="col-6 col-md-8">
+              <div class = "row"></div>
+              <!--<div class = "row"></div>-->
+              <div class = "row">              <h6>
+               All apparel was produced without exploiting the labor of garment workers.
+               I carefully cultivate every collection from my local thrift and consignment stores, seeking belonging for displaced treasures.
+               I screen print and bedazzle each garment by hand.
+               </h6></div>
+            </div>
+
+
+            </div>
+
+
+<br></br>
+
+<!-- sliding scale bottle -->
+  <div class= "row" id="sliding">
+    
+    
+    <div class="col-md-12 col-xs-12 col-centered">
+      <img src="images/greenbottle.png" style="width:100%">
+    </div>
+  </div>
+
+  
+  
 <!-- mailer lite -->
 	<div class= "row">
 		<div class="col-md-12 col-xs-12 col-centered">
@@ -1132,31 +1358,62 @@
 <!-- ending credit -->
 	<div class="row">
 		<div class="col-md-12 col-xs-12 col-centered">
+	<div class="row">
+		<div class="col-md-12 col-xs-12 col-centered">
 			<br>
-			<center><img src="images/ending.gif" width=25% style="margin-left: auto; margin-right: auto;"></center>
+      
+  <br>
+  </br>
+      
+  <center>
+  <a href="https://www.twitter.com/diaspoura" target="_blank">
+	<img src="images/social/twitter.png" width=5% style="margin:2px;">
+	</a>
+	
+	<a href="https://www.patreon.com/diaspoura/" target="_blank">
+	<img src="images/social/Patreon-Logo-Coral.png" width=5% style="margin:2px;">
+	</a>
+	
+	<a href="https://www.instagram.com/diaspoura/" target="_blank">
+	<img src="images/social/instagram.svg" width=5% style="margin:2px;">
+	</a>
+  
+  <br>
+  <br>
+  </br>
+  </center>
+    <center><img src="images/ending.gif" width=25% style="margin-left: auto; margin-right: auto;"></center>
+      <br>
+  </br>
+        <br>
+  </br>
 		</div>
 	</div>
 
 
 
 </div>
+</div>
 
+<div class="popup-btn">
 
-
-<footer>
-	<a href="https://www.twitter.com/diaspoura" target="_blank">
-	<img class="button" src="images/social/twitter.png" width=4%>
+  	<a href="https://www.patreon.com/diaspoura" target="_blank">
+	<img src="images/social/Patreon-White.png" width=100%>
 	</a>
-	
-	<a href="https://www.facebook.com/diaspoura/" target="_blank">
-	<img class="button" src="images/social/facebook.png" width=4%>
-	</a>
-	
-	<a href="https://www.instagram.com/diaspoura/" target="_blank">
-	<img class="button" src="images/social/instagram.png" width=4%>
-	</a>
-	
-</footer>
+</div>
 
 
 </html>
+
+
+
+
+
+<script>
+
+
+  
+  
+	</script>
+
+

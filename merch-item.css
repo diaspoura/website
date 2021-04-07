@@ -1,19 +1,24 @@
 body, html {
-	background: url(images/merch/red-silk.jpg);
+	background: url(images/towel.jpg);
 	background-size: 350px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Microgram.ttf);
 }
 
 
 .main{
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
 	padding-bottom: 15%;
 	padding-top: 3%;
 }
 
 .col-12 {
 	width: 90%;
-	margin-bottom: 5%;
+	
 	padding-left: 2% !important;
 	padding-right: 2% !important;
 	display: inline-block;
@@ -22,7 +27,7 @@ body, html {
 
 .col-sm-6{
 	width: 90%;
-	margin-bottom: 5%;
+	
 	padding-left: 2% !important;
 	padding-right: 2% !important;
 	display: inline-block;
@@ -30,7 +35,7 @@ body, html {
 
 .col-6{
 	width: 90%;
-	margin-bottom: 5%;
+	
 	padding-left: 2% !important;
 	padding-right: 2% !important;
 	display: inline-block;
@@ -40,7 +45,7 @@ body, html {
 
 .col-md-3{
 	width: 90%;
-	margin-bottom: 5%;
+	
 	padding-left: 0% !important;
 	padding-right: 0% !important;
 	display: inline-block;
@@ -67,22 +72,52 @@ body, html {
 
 h1{
   position: relative;
-  font-family:'Gruppo', sans-serif !important;
+  font-family:'Gruppo' !important;
+  margin-bottom: 8rem;
+}
+
+h4{
+  position: relative;
+  font-family:'Gruppo' !important;
   margin-bottom: 8rem;
 }
 
 h6{
-  font-family:'Tomorrow', sans-serif !important;
-	font-size: 20px;
-	color: white !important;
+  font-family: Helvetica, san-serif !important;
+	font-weight:50 !important;
+	font-style:italic;
+	font-size: 18px !important;
+	text-align: justify;
+	color: black !important;
 }
 
 text{
   color: red;
   font-family:'Gruppo', serif;
   font-weight:normal;
-  font-size: 20px;
+  font-size: 24px;
 }
+
+ /* unvisited link */
+a:link {
+  color: green;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: green;
+} 
+
 
 .piccy{
 	border: 2px solid #0066FF;
@@ -121,6 +156,21 @@ footer {
 	z-index:2;
 }
 
+.popup-btn{
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    width: 100px;
+  padding: 1%;
+  	z-index: 4;
+  transform-origin: 60% 0%;
+  -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
 button{
 	width:5%;
 }
@@ -130,7 +180,18 @@ button{
 }
 
 
+.text-box{
+	font-family:arial, serif;
+	letter-spacing: 1px;
+	font-size: 10px;
+	background: gold;
+	text-align: justify;
+	color: black;
+	background-size: contain;
+	 
+	opacity: 0.7;
 
+}
 
 
 
@@ -139,6 +200,7 @@ button{
 
 @media screen and (max-width: 900px ) {
 
+  .main{padding-left:5%; padding-right:5%;}
 	.title { width:60%; padding-right: 6rem; }
 	.image { width: 35%; position: relative; left: 10px;}
 	.navbutton{ width:70%; height: 70%;}
@@ -147,6 +209,7 @@ button{
 /* On phone screens, make these changes to size*/
 @media screen and ( max-width: 575px ) {
 
+	.main{}
 	.text {font-size: 10px}
 	.image { width: 35%; left: 10px;}
 	.title { width:80%; padding-right: 5rem; top:15%}

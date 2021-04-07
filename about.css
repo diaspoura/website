@@ -1,3 +1,9 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Microgram.ttf);
+}
+
+
 body {
 	background: url(images/shadowback.jpg);
 	background-size: 300px;
@@ -5,8 +11,8 @@ body {
 }
 
 .main{
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 3%;
+	padding-right: 3%;
 	padding-bottom: 10%;
 	padding-top: 3%;
 }
@@ -47,22 +53,32 @@ body {
 }
 
 .row{
-	padding: 2%;
+
 }
 
 .button{
 	width: 90%;
 }
 
-.text-box{
-	font-family:'Gruppo', serif;
+text{
+  	font-family:'myFirstFont', serif;
 	letter-spacing: 1px;
 	font-size: 1rem;
-	background: orange;
+  color: #c2b280;
+  text-align: right;
+}
+
+.text-box{
+	font-family:'myFirstFont', serif;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	background: #002387;
+	text-align: justify;
 	background-size: contain;
-	color: black;
-	padding: 2%;
-	margin: 10%;
+	color: #c2b280;
+	padding: 4%;
+
+	opacity: 0.7;
 
 }
 
@@ -125,6 +141,43 @@ footer {
 	flex: 1;
 }
 
+.popup-btn{
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    width: 100px;
+  padding: 1%;
+  	z-index: 4;
+  transform-origin: 60% 0%;
+  -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+
+
+.picCont:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+#go{
+  background: url(images/merch/falling-petals.gif);
+}
+
 
 
 /* On ipad screens, make these changes to size*/
@@ -132,7 +185,7 @@ footer {
 	.main{padding:10%;}
 	.title { width:60%; padding-right: 6rem; }
 	.image { width: 40%; position: relative; left: 10px;}
-	.button{ width: 90%;}
+	.button{ width: 100%;}
 }
 
 /* On phone screens, make these changes to size*/
@@ -141,7 +194,7 @@ footer {
 	.text {font-size: 2rem !important;}
 	.image { width: 50%; left: 10px;}
 	.title { width:80%; padding-right: 5rem; top:15%}
-	.button{ width:50%;}
+	.button{ width:100%;}
 	nav { position: relative; width: 40%;left: 0; right: auto; }
 	footer{ position: relative; right: auto; }
 }
