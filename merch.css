@@ -129,10 +129,12 @@ h1{
 }
 
 h6{
-  font-family: 'Tomorrow', sans-serif !important;
-  size: 15px;
-  color: white !important;
-  
+  font-family: Helvetica, san-serif !important;
+	font-weight:50 !important;
+	font-style:italic;
+	font-size: 18px !important;
+	text-align: justify;
+	color: white !important;
 }
 
 .text {
