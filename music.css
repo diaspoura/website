@@ -114,13 +114,18 @@ h1 {
 footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    top: 0;
     width: 100%;
-    background: url(https://media.giphy.com/media/3oEdvaxmd15YTHy6Uo/giphy.gif);
+   /* background: url(https://media.giphy.com/media/3oEdvaxmd15YTHy6Uo/giphy.gif); */
 	background-position: 0% 35%; 
     color: white;
-    text-align: center;
+    text-align: right;
 	flex: 1;
+	z-index: 3;
+}
+
+.social{
+	width:7%;
 }
 
 .popup-btn{
@@ -147,6 +152,7 @@ footer {
 	.image { width: 40%; position: relative; left: 10px;}
 	.button{ width: 90%; height: 90%;}
 	.contact{width: 110%;}
+	  .social{width:10%;}
 	
 }
 
@@ -159,6 +165,8 @@ footer {
 	.button{ width:70%; height: 70%;}
 	nav { position: relative; width: 40%;left: 0; right: auto; }
 	footer{ position: relative; right: auto; }
+		.button{ width:100%;}
+  .social{width:20%;}
 }
 
 

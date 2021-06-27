@@ -146,14 +146,18 @@ a:active {
 footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    top: 0;
     width: 100%;
-    background: url(https://media.giphy.com/media/3oEdvaxmd15YTHy6Uo/giphy.gif);
+   /* background: url(https://media.giphy.com/media/3oEdvaxmd15YTHy6Uo/giphy.gif); */
 	background-position: 0% 35%; 
     color: white;
-    text-align: center;
+    text-align: right;
 	flex: 1;
-	z-index:2;
+	z-index: 3;
+}
+
+.social{
+	width:7%;
 }
 
 .popup-btn{
@@ -204,6 +208,7 @@ button{
 	.title { width:60%; padding-right: 6rem; }
 	.image { width: 35%; position: relative; left: 10px;}
 	.navbutton{ width:70%; height: 70%;}
+	.social{width:10%;}
 }
 
 /* On phone screens, make these changes to size*/
@@ -217,6 +222,7 @@ button{
 	nav { position: relative; width: 40%;left: 0; right: auto; }
 	footer{ position: fixed; right: auto;}
 	button{width:8%;}
+	.social{width:20%;}
 }
 
 
