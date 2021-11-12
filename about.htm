@@ -46,11 +46,12 @@
 
 <div class="main">
 
-<!-- title -->
+
 
 
 	<div class="row">
-    
+		
+    <!-- navigation menu -->
     <div class="col-12 col-md-3">
 			
     	<img class="box" src="images/aa.jpg" >
@@ -70,42 +71,43 @@
 
     </div>
 		
+		<!-- content -->
     <div class="col-12 col-md-9" style="padding:3%;">
-<br>
+			<div class="row">
+				<br>
 				<center>
 
-	
+			<div class="col-sm-5" style="width: 90%; margin-bottom: 5%; padding-left: 0% !important; padding-right: 0% !important; display: inline-block;">
+				<div class="row">
+					<img src="images/butterflies.gif" class="butterfly" width=100%; style="pointer-events: none; position: relative; left: 30%; top:20px; z-index: 4; padding: 0%;">
+				</div>
+				<div class="row">
+					<center><img src="images/pinecone.png" class="pinecone" width=50%;" style="padding: 10%; pointer-events: none;"></center>
+				</div>
+				<div class="row">
+					
+				</div>
+			</div>
+			
+			
+			<div class="col-sm-6" style="width: 90%; margin-bottom: 5%; padding-left: 0% !important; padding-right: 0% !important; display: inline-block;">
+				<img src="images/shriya-samavai.jpg" width=100%;" style=" pointer-events: none; ">
+				<text>photo by <a href="https://www.shriyasamavai.com/"  target="_blank" >shriya samavai</a></text>
+			</div>
+			
+			<div class="col-sm-1">
+				<br>
+			</div>
+		</div>
 
-<!-- body/content -->
 
-    <div class="col-sm-5" style="width: 90%; margin-bottom: 5%; padding-left: 0% !important; padding-right: 0% !important; display: inline-block;">
-      <div class="row">
-        <img src="images/butterflies.gif" class="butterfly" width=100%; style="pointer-events: none; position: relative; left: 30%; top:20px; z-index: 4; padding: 0%;">
-      </div>
-      <div class="row">
-        <center><img src="images/pinecone.png" class="pinecone" width=50%;" style="padding: 10%; pointer-events: none;"></center>
-      </div>
-      <div class="row">
-        
-      </div>
-    </div>
-    
-    
-    <div class="col-sm-6" style="width: 90%; margin-bottom: 5%; padding-left: 0% !important; padding-right: 0% !important; display: inline-block;">
-      <img src="images/shriya-samavai.jpg" width=100%;" style=" pointer-events: none; ">
-      <text>photo by <a href="https://www.shriyasamavai.com/"  target="_blank" >shriya samavai</a></text>
-    </div>
-    
-    <div class="col-sm-1">
-    </div>
-
-  <br>
   
 
-  <div class="row">
-			<img src="images/baggage.gif" width=60%; style="pointer-events: none;">
-
-  </div>
+		<div class="row">
+			<center>
+				<img src="images/baggage.gif" width=90%; style="pointer-events: none;">
+			</center>
+		</div>
   
   <div class="row" style="padding: 8%;">
 
@@ -138,6 +140,10 @@
       <img src="images/zoe-hedquist.jpeg" width=100%;" style=" pointer-events: none;">
       <text>photo by <a href="https://www.instagram.com/zoe_._renee/"  target="_blank" >zoe hedquist</a></text>
     </div>
+		
+		<div class="col-md-1">
+
+    </div>
  
     <br><br>
   </div>
@@ -145,15 +151,15 @@
 	<div class="row">
 		<div class="col-12">
 			<br>
-				<img src="images/tali.png" width=70% style="padding-left: 20%; pointer-events: none;">
+				<img class="tali" src="images/tali.png" width=70% style="padding-left: 20%; pointer-events: none;">
 			<br><br>
 		</div>
 	</div>
   
-  <br><br>
+
   
 
-    <div class = "row">
+  <div class = "row">
     <div class="col-12 col-sm-12 col-md-7">
       <img src="images/raverjinn2.jpg" width=100%;" style=" pointer-events: none;">
       <text>photo by <a href="https://jinnlab.club"  target="_blank" >raverjinn</a></text>
@@ -161,19 +167,13 @@
 
     <div class="col-12 col-sm-12 col-md-5">
       <center>
-      
-      
-      <div class = "row">
-
-      </div>
-      
-            <div class = "row">
-      <img src="images/existence.gif" width=100%; style="pointer-events: none; padding: 5%;">
+			<br><br><br>
+      <img src="images/existence.gif" width=100%; style="height:auto; pointer-events: none; padding: 5%;">
       </div>
       
       </center>
     </div>
-      </div>
+  </div>
 
   
 
@@ -247,7 +247,7 @@
 body {
 	background: url(images/shadowback.jpg);
 	background-size: 300px;
-	cursor: url(chicken.cur), auto !important;
+	cursor: url(cursors/chicken.cur), auto !important;
 }
 
 
@@ -295,11 +295,6 @@ text{
 
 }
 
-.nav{
-  background: url(https://media.giphy.com/media/r2DZ7c7zrY1jO/giphy.gif);
-  min-width: 250px;
-  flex: 1;
-}
 
 h1 {
   position: relative;
@@ -312,8 +307,6 @@ h1 {
   font-size: 5rem;
   margin-bottom: 8rem;
 }
-
-
 
 
 
@@ -364,6 +357,7 @@ h1 {
 	.box{position:static; width: 30%}
   .butterfly{bottom:30%; left:0%;}
   .pinecone{bottom:30%; left:0%;}
+	.tali{padding-left:0;}
 }
 
 /* On phone screens, make these changes to size*/
@@ -374,6 +368,7 @@ h1 {
 	.box{position:static; width: 40%}
   .butterfly{bottom:30%; left:0;}
   .pinecone{bottom:30%; left:0;}
+	.tali{padding-left:0;}
 }
 
 </style>

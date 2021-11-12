@@ -3,7 +3,7 @@
 	
 	
 <head>
-  <link rel="stylesheet" type="text/css" href="index.css"/>
+
 	<title>diAspoURa_chEck_INN</title>
 
    <link rel="stylesheet"
@@ -135,3 +135,110 @@
 
 
 </html>
+<style>
+  
+  body {
+	background: url(images/carpet1.jpg);
+	background-size: 600px;
+	cursor: url(cursors/bell.cur), auto !important;
+}
+
+.main{
+	padding: 5%;
+}
+
+.row{
+	padding: 2%;
+}
+
+.button{
+	width: 60%;
+}
+
+
+h1 {
+  position: relative;
+  
+  background-color: rgba(1,1,1,0.0) !important;
+  opacity: 1 !important;
+  background-color: transparent !important; 
+  padding: 20px;
+  text-align: left;
+  font-size: 5rem;
+  margin-bottom: 8rem;
+}
+
+.collage{
+	width:90%;
+}
+
+
+.image {
+	position: relative;
+	left: 50px;
+	width: 30%;
+	height: 40%;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.title {
+	position: relative;
+	top: 30%;
+	right: 0;
+	width: 40%;
+	padding: 2rem 0 0 2rem;
+	text-align: right;
+}
+
+
+
+
+.social{
+	width:7%;
+}
+
+.popup-btn{
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    width: 100px;
+  padding: 1%;
+  	z-index: 4;
+  transform-origin: 60% 0%;
+  -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+
+
+@media screen and (max-width: 900px ) {
+	.main{padding:10%;}
+	.title { width:60%; padding-right: 6rem; }
+	.image { width: 40%; position: relative; left: 10px;}
+	.button{ width: 90%;}
+	.contact{width: 102%;}
+	.collage{width: 110%; float: right;}
+	.merchbutt{width: 100%;}
+	.social{width:10%;}
+}
+
+/* On phone screens, make these changes to size*/
+@media screen and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.main{padding: 5%}
+	.text {font-size: 10px}
+	.image { width: 50%; left: 8px;}
+	.title { width:70%; padding-right: 5rem; top:15%}
+	.merchbutt{width: 90%;}
+	.button{ width:70%; height: 70%;}
+	.social{width:20%;}
+	.collage{width:110%; float: none;}
+	nav { position: relative; width: 40%; left: auto; right: auto; }
+	footer{ position: relative; right: auto; }
+}
+  
+</style>
